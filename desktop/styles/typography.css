@@ -1,0 +1,144 @@
+@font-face {
+    font-family: source-sans;
+    src: url(/Users/kristenhuang/Documents/gdes2342/final-website/fonts/source-sans.ttf);
+}
+
+@font-face {
+    font-family: source-serif;
+    src: url(/Users/kristenhuang/Documents/gdes2342/final-website/fonts/source-serif.ttf);
+}
+
+header {
+
+    h1 {
+        font-family: source-serif;
+        font-size: 60px;
+        margin-top: 30px;
+        margin-left: 50px;
+        color: white;
+        text-align: left;
+    }
+
+    p {
+        color: white;
+        font-size: 25px;
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+
+}
+
+h3, h5, h6 {
+    font-family: source-serif;
+    font-size: 35px;
+    color: #4F788E;
+    text-align: left;
+    margin-top: 50px;
+
+}
+
+h1 {
+    font-family: source-serif;
+    color: #4F788E;
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: source-serif;
+    color: white;
+    font-size: 50px;
+    text-align: left;
+    margin: 0;
+}
+
+h4 {
+    font-family: source-serif;
+    color: #4F788E;
+    font-size: 45px;
+    text-align: center;
+    margin: 0;
+}
+
+p {
+    text-align: left;
+    font-size: 20px;
+    font-family: source-sans;
+    margin-top: 20px;
+}
+
+.card {
+    h4{
+        text-align: center;
+    }
+    p {
+        margin: 5px;
+    }
+}
+
+a {
+    text-decoration: none;
+    font-family: source-sans;
+    
+    &:hover{
+        text-decoration: underline;
+    }
+
+    &.active {
+        font-weight: bold;
+    }
+
+    &.q-links {
+        color: black;
+
+        &:hover{
+            text-decoration: underline;
+            font-weight: bold;
+        }
+
+    }
+}
+
+.section-one {
+
+    p {
+        color: white;
+    }
+}
+
+.section-three {
+
+    h2 {
+        font-family: source-serif;
+        font-size: 60px;
+        margin: 30px 0 10px 0;
+        color: #4F788E;
+        text-align: center;
+    }
+}
+
+.section-four {
+
+    p {
+        color: white;
+    }
+}
+
+
+.h-blue {
+    color:#4F788E;
+}
+
+.form {
+    font-family: source-sans;
+}
+
+ol, li {
+    font-family: source-sans;
+    font-size: 20px;
+}
+
+footer {
+    font-family: source-sans;
+}
